@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Websocket Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Import CSS Resources-->
+        <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+        <link rel="stylesheet" type="text/css" href="resources/font-awesome/css/font-awesome.min.css">
+
+        <!--Import Javascripts-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+
+    <body onload="bodyLoad();">
+        <section class="header">
+            <span id="header-title">Websocket Demo Application</span>
+            <span id="header-subtitle">This is an demonstration of a websocket application</span>
+        </section>
+
+        <section class="main-body">
+
+            <div class="socket-status-message">
+
+                <i class="fa fa-bolt" aria-hidden="true" onclick="openSocket();" id="connect"></i>
+                <i class="fa fa-chain-broken" aria-hidden="true" onclick="closeSocket();" id="disconnect"></i>
+                Socket: <span id="socket-status"></span>
+            </div>
+            <!-- Server responses get written here -->
+            <div class="console" id="messages"></div>
+
+            <div class="chat-input">
+                <div class="chat-input-message"><input type="text" placeholder="Your message ..." id="messageinput"/>
+                <i class="fa fa-paper-plane-o" aria-hidden="true" onclick="sendText();" id="send-message"></i></div>
+            </div>
+        </section>
+
+        <!-- Script gets imported here to make sure that the DOM is ready -->
+        <script type="text/javascript" src="resources/js/scripts.js"></script>
+    </body>
+</html>

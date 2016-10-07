@@ -1,0 +1,97 @@
+/*
+    Author     : Huiguang Liang
+*/
+
+.header {
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    color: #333333;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header > span {
+  /* these are the flex items */
+  display: flex;
+  /*
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#header-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#header-subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/*
+.header-outer {
+    background-color: #F3F3F3;
+    width: 100%;
+    color: #333333;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-inner p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.header-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.header-subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+*/

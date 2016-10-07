@@ -1,0 +1,14 @@
+{
+  "name": "demo-websocket-app-nodejs",
+  "version": "1.0.0",
+  "description": "A web-serve.js used to serve the html content, and a accompanying demo websocket-server",
+  "main": "web-serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
